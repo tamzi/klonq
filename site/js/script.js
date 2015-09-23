@@ -1,2 +1,2 @@
-        /*Your Custom Javascript file goes here.*/
+        /*the main Javascript file.*/
 
