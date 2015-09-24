@@ -18,5 +18,11 @@ Will document my steps here:
 10. Search for the repo and click on it.
 11. Then click connect.
 12. I enabled 'automatic deploy' and in the **Manual deploy** section i hit **'deploy branch'** option.
+13. Next is the settings option.i changed the name to match the same name that i use for the github repo.
+
+Set Up.
+1. Do a ghost install. check this out:
+ 1. [Official Ghost Install Support for whichever env](http://support.ghost.org/installation/)
+ 2.
 
 
