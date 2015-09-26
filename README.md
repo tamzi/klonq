@@ -21,9 +21,22 @@ Will document my steps here:
  12. I enabled 'automatic deploy' and in the **Manual deploy** section i hit **'deploy branch'** option.
  13. Next is the settings option.i changed the name to match the same name that i use for the github repo.
 
+ **NOTE:**
+  At this stage, the repo has been configured to deploy from github, but it will not display the post or blog but will give you an Application Error page from heroku.
+  THis is because, ghost has not yet been installed
+
 Set Up.
  1. Do a ghost install. check this out:
      [Official Ghost Install Support for whichever env](http://support.ghost.org/installation/)
- 2. AFter install: will say*****
+ Let me just place the how to install Ghost here:
+ Am copying and pasting content from here: [How to install Ghost.com](https://www.howtoinstallghost.com/how-to-install-ghost-on-heroku/)
+
+ 2. Deploying to **heroku**
+
+
+ 	```bash
+ 	# https://dashboard.heroku.com/apps/{YOUR USER NAME}/deploy
+ 	```
+
 
 
