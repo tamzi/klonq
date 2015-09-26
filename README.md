@@ -10,7 +10,7 @@ Will document my steps here:
  5. I created an app.
  6. Go to the deploy tab..url is probably sth like
 
- 	```bash
+ 	```
  	# https://dashboard.heroku.com/apps/{YOUR USER NAME}/deploy
  	```
  7. Then went to the github tab.{connect to gitHub}.
@@ -19,18 +19,42 @@ Will document my steps here:
  10. Search for the repo and click on it.
  11. Then click connect.
  12. I enabled 'automatic deploy' and in the **Manual deploy** section i hit **'deploy branch'** option.
- 13. Next is the settings option.i changed the name to match the same name that i use for the github repo.
+ 13. Next is the settings option.I changed the name to match the same name that i use for the github repo.
 
  **NOTE:**
   At this stage, the repo has been configured to deploy from github, but it will not display the post or blog but will give you an Application Error page from heroku.
-  THis is because, ghost has not yet been installed
+  This is because, ghost has not yet been installed.
 
-Set Up.
+Setting Up Ghost.
  1. Do a ghost install. check this out:
-     [Official Ghost Install Support for whichever env](http://support.ghost.org/installation/)
+  [Official Ghost Install Support for whichever env](http://support.ghost.org/installation/)
  Let me just place the how to install Ghost here:
- Am copying and pasting content from here: [How to install Ghost.com](https://www.howtoinstallghost.com/how-to-install-ghost-on-heroku/)
+  - Am copying and pasting content from here:
+  			**[How to install Ghost.com]**
+     1. From the command line access the repo.
+	 2. Type
+			 ```javascript
+			npm install --production
+			```
+	 3. After install. We check whether Ghost installed correctly. run the command:
+	 ```bash
+		npm start
+	```
+	> This will run ghost on **localhost:2368**
+	 3. After install. You need to stage the new files on github. open the command line and type
+	 ```bash
+		$ git status
+	 ```
+this will check the status of ghost.
 
+	 4. Because the new files that have been added are alot, we will do a
+	 	```bash
+		$ git add -A
+	 ```
+	 This will add all the files in all the foleders that have been added, over 2000 new files by the way.
+	 5.
+	 6.
+	 7.
  2. Deploying to **heroku**
 
 
