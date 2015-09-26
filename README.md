@@ -41,21 +41,32 @@ Setting Up Ghost.
 		npm start
 	```
 	> This will run ghost on **localhost:2368**
-	 3. After install. You need to stage the new files on github. open the command line and type
+	 4. After install. You need to stage the new files on github. open the command line and type
 	 ```bash
 		$ git status
 	 ```
 this will check the status of ghost.
 
-	 4. Because the new files that have been added are alot, we will do a
+	 5. Because the new files that have been added are alot, we will do a
 	 	```bash
 		$ git add -A
 	 ```
-	 This will add all the files in all the foleders that have been added, over 2000 new files by the way.
-	 5.
-	 6.
-	 7.
- 2. Deploying to **heroku**
+	 This will add all the files in all the foleders that have been added, over 2000 new files by the way!
+
+	 6. Then commit the files locally by running the following command:
+	 	```bash
+		$ git commit -m "{your commit message}"
+	 ```
+	 7. Then commit the files to your online repository on github.Do a :
+	 	```bash
+		$ git push
+	 ```
+	 7.Yeay the online repo is already on github.
+
+	 > Though we have configured ghost to deploy manually from github, even though we do a manual deploy from heroku, nothing will be diplayed. We still have the same application error.
+
+
+	 Making it go Live.
 
 
  	```bash
