@@ -26,14 +26,15 @@ Will document my steps here:
   This is because, ghost has not yet been installed.
 
 Setting Up Ghost.
- 1. Do a ghost install. check this out:
-  [Official Ghost Install Support for whichever env](http://support.ghost.org/installation/)
- Let me just place the how to install Ghost here:
-  - Am copying and pasting content from here:
-  			**[How to install Ghost.com]**
+ 1. Do a ghost install. You can check these out or run the following installs.
+   [Official Ghost Install Support for whichever env](http://support.ghost.org/installation/)
+
+ Here are the install instructions:
+
+#####  			**How to install Ghost**
      1. From the command line access the repo.
 	 2. Type
-			 ```javascript
+		 ```
 			npm install --production
 			```
 	 3. After install. We check whether Ghost installed correctly. run the command:
@@ -66,7 +67,7 @@ this will check the status of ghost.
 	 > Though we have configured ghost to deploy manually from github, even though we do a manual deploy from heroku, nothing will be diplayed. We still have the same application error.
 
 
-	 Making it go Live.
+##### Making it go Live.
 
 
  	```bash
@@ -74,4 +75,5 @@ this will check the status of ghost.
  	```
 
 
-
+##### Themes?
+You can find a free theme her: http://www.allghostthemes.com/
