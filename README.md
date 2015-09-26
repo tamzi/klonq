@@ -24,6 +24,6 @@ Will document my steps here:
 Set Up.
  1. Do a ghost install. check this out:
      [Official Ghost Install Support for whichever env](http://support.ghost.org/installation/)
- 2. AFter
+ 2. AFter install: will say*****
 
 
