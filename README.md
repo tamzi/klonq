@@ -1,13 +1,12 @@
 ### deployed ghost blog
 Deploying a ghost bog on heroku
 
-
-Will document my steps here:
- 1. Created a repo on github.(This one..only had a readme)
+#### Documented my steps here:
+ 1. Created a repo on github.(This one..only had github's default readme when it started)
  2. Headed over to [ghost.org](http://ghost.org/) and downloaded Ghost(latest version)
- 3. Clone from github and unzipped ghost in this folder and pretty much did an override on existing files.
+ 3. Clone the repo you jsut created from github and unzip ghost in that folder and pretty much did an override on existing files(The README.md).
  4. Head over to [heroku](http://heroku.com/) -If you lack an account, create one and logIn.
- 5. I created an app.
+ 5. Create an app.(On the dashboard)
  6. Go to the deploy tab..url is probably sth like
 
  	```
@@ -76,4 +75,6 @@ this will check the status of ghost.
 
 
 ##### Themes?
-You can find a free theme her: http://www.allghostthemes.com/
+- You can find themes here: http://www.allghostthemes.com/
+- We can also make a theme:
+- Check this Ghost theme repo [Under development]
