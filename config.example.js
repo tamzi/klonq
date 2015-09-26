@@ -22,9 +22,17 @@ config = {
         },
 
         server: {
-            host: '127.0.0.1',
-            port: '2368'
+            host: '0.0.0.0',
+            port: process.env.PORT
         }
+
+		/*
+		If deploying locally:
+
+		host: '127.0.0.1',
+		port: '2368'*/
+
+
     },
 
     // ### Development **(default)**
