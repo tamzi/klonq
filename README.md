@@ -76,5 +76,5 @@ this will check the status of ghost.
 
 ##### Themes?
 - You can find themes here: http://www.allghostthemes.com/
-- We can also make a theme:
-- Check this Ghost theme repo [Under development]
+- You can also make a theme:
+ - Check this Ghost theme repo [Under development] to understand how theming works
