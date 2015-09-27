@@ -17,7 +17,7 @@ Deploying a ghost bog on heroku
  9. Next is for you to search for your github repo where you have ghost.
  10. Search for the repo and click on it.
  11. Then click connect.
- 12. I enabled 'automatic deploy' and in the **Manual deploy** section i hit **'deploy branch'** option.
+ 12. I enabled Manual deploy. At the **Manual deploy** section, hit **'deploy branch'** option.
  13. Next is the settings option.I changed the name to match the same name that i use for the github repo.
 
  **NOTE:**
@@ -61,20 +61,59 @@ this will check the status of ghost.
 	 	```bash
 		$ git push
 	 ```
-	 7.Yeay the online repo is already on github.
+	 8.Yeay the online repo is now updated on github.
 
-	 > Though we have configured ghost to deploy manually from github, even though we do a manual deploy from heroku, nothing will be diplayed. We still have the same application error.
+	 > Though we have configured ghost to deploy manually from github, even though we do a manual deploy from heroku, nothing will be diplayed. We still have the same application error. This is because we have to configure ghost to tell it we are live and no longer local.
 
 
 ##### Making it go Live.
+	 1. Go to config.js file and look for these lines:
+	  - These lines:
+	 ```bash
+	 production: {
+        url: 'http://127.0.0.1:2369', or 'http:localhost:2369',
+		```
+		 - change to:
+		```bash
+	 production: {
+        url: '{YOUR APP URL ON HEROKU} something like: https://klonq.herokuapp.com/',
+		```
 
 
- 	```bash
- 	# https://dashboard.heroku.com/apps/{YOUR USER NAME}/deploy
- 	```
+		- Then this one:
+		```bash
+		 server: {
+            host: '127.0.0.1',
+		 	port: '2368'
+        }
+		```
+		need to change to:
+		```bash
+		 server: {
+            host: '0.0.0.0',
+			port: process.env.PORT
+        }
+		```
 
+		- and this one:
+		```bash
+		 // Change this to your Ghost blog's published URL.
+        url: '',
+		```
+		changes to:
+
+	 	```bash
+		 // Change this to your Ghost blog's published URL.
+        url: '{Your ghost url with https.tsh like: https://klonq.herokuapp.com/}',
+	 ```
+
+ 	- Save the changes. Commit the changes to github as we did above. steps number 4 to number 8
+ 	- Go to heroku dashboard. Do a manual deploy. In case you forgot
+ 		> 12. I enabled Manual deploy. At the **Manual deploy** section, hit **'deploy branch'** option.
 
 ##### Themes?
 - You can find themes here: http://www.allghostthemes.com/
 - You can also make a theme:
- - Check this Ghost theme repo [Under development] to understand how theming works
+ - Check this Ghost theme repo [Under development] to understand:
+   - how theming works
+   - how to install a ghost theme/template
