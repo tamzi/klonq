@@ -120,3 +120,5 @@ this will check the status of ghost.
  - Check this Ghost theme repo [Under development] to understand:
    - how theming works
    - how to install a ghost theme/template
+
+#### configure Email to work. Check this file out
