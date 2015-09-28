@@ -1,4 +1,4 @@
-### deployed ghost blog
+### How i deployed a ghost blog on heroku
  - This is a tutorial on how to Deploying a [ghost](http://ghost.org/) blog on heroku.
  - Ghost is an Open Source application dedicated to content publishing. Ghost is built on Node.js.
  - This means you have to have [node js](http://nodejs.org/) installed. Its pretty straight forward. Head over to [nodejs.org](http://nodejs.org/) and check it out!
@@ -121,4 +121,11 @@ this will check the status of ghost.
    - how theming works
    - how to install a ghost theme/template
 
-#### configure Email to work. Check this file out
+#### Questions?
+- Feel free any questions bugs and issues here: [Issues submission](https://github.com/tamzi/klonq/issues)
+
+#### Comming soon:
+
+ - Theming in Ghost
+ - Image handling with an external service
+ - Configuring email to work
