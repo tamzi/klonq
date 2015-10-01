@@ -115,7 +115,7 @@ this will check the status of ghost.
  		> 12. I enabled Manual deploy. At the **Manual deploy** section, hit **'deploy branch'** option.
 
 ##### Themes?
-- You can find themes here: http://www.allghostthemes.com/
+- You can find themes here: [All Ghost Themes](http://www.allghostthemes.com/)
 - You can also make a theme:
  - Check this Ghost theme repo [Under development] to understand:
    - how theming works
