@@ -122,10 +122,10 @@ this will check the status of ghost.
    - how to install a ghost theme/template
 
 #### Questions?
-- Feel free any questions bugs and issues here: [Issues submission](https://github.com/tamzi/klonq/issues)
+- Feel free any questions bugs and issues here: [Ask questions here](https://github.com/tamzi/klonq/issues)
 
 #### Comming soon:
 
- - Theming in Ghost
+ - [Theming in Ghost](https://github.com/tamzi/Klonqy)
  - Image handling with an external service
  - Configuring email to work
