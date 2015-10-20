@@ -116,10 +116,12 @@ this will check the status of ghost.
 
 ##### Themes?
 - You can find themes here: [All Ghost Themes](http://www.allghostthemes.com/)
+
 - You can also make a theme:
- - Check this Ghost theme repo [Under development] to understand:
+ - Check this Ghost theme repo: [klonqy](https://github.com/tamzi/klonqy) to understand:
    - how theming works
    - how to install a ghost theme/template
+   - editing and creating a ghost theme
 
 #### Questions?
 - Feel free any questions bugs and issues here: [Ask questions here](https://github.com/tamzi/klonq/issues)
